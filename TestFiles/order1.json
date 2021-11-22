@@ -1,0 +1,44 @@
+{
+    "pharmacyPo": {
+        "poHeader": {
+            "hospital": "Bristol Hospital",
+            "hospitalCode": "BLHOS",
+            "requestLocation": "BL Pharmacy",
+            "requestLocationCode": "BLPHA",
+            "poNumber": "PO114044",
+            "vendorCode": "10891",
+            "poDate": "2021-08-19",
+            "poLastUpdatedDateTime": "2021-08-19T10:18:42Z",
+            "dateRequiredBy": "2021-08-19",
+            "userId": "stev",
+            "username": "Steve Turner",
+            "remarks": ""
+        },
+        "poLineItem": [
+            {
+                "itemCode": "PH12345678",
+                "itemVendorCode": "10998371",
+                "itemName": "paracetamol",
+                "quantity": "500",
+                "unitsOfMeasure": "tablets",
+                "unitPrice": ".21234567",
+                "itemRemarks": "",
+                "lineItemRequestLocation": "BL Pharmacy",
+                "lineItemRequestLocationCode": "BLPHA"
+            },
+            {
+                "itemCode": "PH987654321",
+                "itemVendorCode": "4566488",
+                "itemName": "ibuprofen",
+                "quantity": "500",
+                "unitsOfMeasure": "tablets",
+                "unitPrice": ".18999",
+                "itemRemarks": "",
+                "lineItemRequestLocation": "BL Pharmacy",
+                "lineItemRequestLocationCode": "BLPHA"
+            }			
+        ]
+    }
+}
+
+ 

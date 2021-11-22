@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/targetSchema"
+	xmlns:tns="http://www.example.org/targetSchema"
+	elementFormDefault="qualified">
+	<element name="PurchaseOrder">
+		<complexType>
+			<sequence>
+				<element minOccurs="1" maxOccurs="1" name="Header">
+					<complexType>
+						<sequence>
+							<element minOccurs="1" maxOccurs="1" name="HospitalCode" type="string"></element>
+							<element minOccurs="1" maxOccurs="1" name="PO" type="string"></element>
+							<element minOccurs="1" maxOccurs="1" name="Vendor" type="string"></element>
+							<element minOccurs="1" maxOccurs="1" name="PODate" type="date"></element>
+						</sequence>
+					</complexType>
+				</element>
+				<element minOccurs="1" name="Item">
+					<complexType>
+						<sequence>
+							<element minOccurs="1" maxOccurs="1" name="ItemVendorCode" type="string"></element>
+							<element minOccurs="1" maxOccurs="1" name="ItemName" type="string"></element>
+							<element minOccurs="1" maxOccurs="1" name="Qty" type="int"></element>
+							<element minOccurs="1" maxOccurs="1" name="Price" type="float"></element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
