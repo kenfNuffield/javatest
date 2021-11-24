@@ -11,4 +11,8 @@ The Problem.
 This is a transformer, input is JSON, read the order1.json file and transform according to the XML schema.
 Output an xml file, with a unique filename, to an output folder that is created if it doesn't exist.  
 
+Suggestions.
+Guard against invalid input file formats.
+Input files may require another form of transport in the future, rather than a file, they may have need of a REST input.
+
 
